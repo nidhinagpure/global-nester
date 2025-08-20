@@ -3,7 +3,6 @@ import "./Navbar.css";
 import { useNavigate  } from 'react-router';
 import { useEffect,useRef } from 'react';
 import logo from "./../../assets/global.png";
-import Contact  from "./../../pages/Contact/Contact.jsx";
 
 const Navbar = () => {
     const navigate = useNavigate(); // initialize
