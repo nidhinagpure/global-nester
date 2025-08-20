@@ -1,0 +1,67 @@
+.footer-section {
+  background: linear-gradient(135deg, #5e9dc4, #00ccff);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.contact-item .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-item h4 {
+  margin: 5px 0;
+}
+
+.contact-item p {
+  font-size: 0.95rem;
+}
+
+.social-icons {
+  margin-bottom: 30px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.consultation-btn {
+  background-color: #00ccff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.consultation-btn:hover {
+  background-color: #0099ff;
+}

@@ -1,0 +1,106 @@
+/* Navbar logo */
+.navar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    /* fixed height */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 50px;
+    position: fixed;
+    color: white;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-menu-container select {
+    color: white;
+}
+
+.nav-menu-container option {
+    color: black;
+}
+
+.logo-conatainer {
+    margin-top: 8px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-image {
+    height: auto;
+    width: 45px;
+}
+
+.global-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+.nester-text {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+.nav-dark{
+  background: linear-gradient(135deg, #5e9dc4, #00ccff);
+}
+
+/* Navbar logo */
+
+/* Navbar Menu */
+
+.nav-menu-container {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    gap: 60px;
+    /* space between items */
+}
+
+.nav-menu-container span,
+.nav-menu-container select {
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-dark{
+    background-color:linear-gradient(135deg, #5e9dc4, #00ccff);
+;
+}
+
+.contact-details {
+    margin-bottom: 30px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+
+.btn-contact {
+    width: 100px;
+    padding: 10px 0 10px 0;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn-login {
+    width: 100px;
+    padding: 10px 0 10px 0;
+    background: linear-gradient(135deg, #5e9dc4, #0b7aca);
+    color: white;
+    margin-left: 16px;
+    border: none;
+    border-radius: 6px;
+
+}
