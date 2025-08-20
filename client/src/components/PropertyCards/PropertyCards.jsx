@@ -1,5 +1,5 @@
 import "./PropertyCards.css";
-import React from "react";
+import React from 'react'
 import plots from "../../assets/plots.jpg";
 import flats from "../../assets/flats.jpg";
 import commercial from "../../assets/commercial.jpg";
