@@ -1,6 +1,8 @@
 import React from 'react'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import "./style.css";
+
 
 const index = () => {
   return (
